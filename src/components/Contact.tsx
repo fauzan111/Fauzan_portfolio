@@ -22,6 +22,7 @@ const Contact = () => {
             <a
               href="https://github.com/fauzan111"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
