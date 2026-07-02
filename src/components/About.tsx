@@ -6,10 +6,14 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Data-driven professional with hands-on experience in data analysis, statistical modeling, and machine learning.
-          Transformed into a Data Scientist. Skilled in Python, SQL, and predictive analytics with a strong foundation in
-          automation and MLOps practices. Passionate about transforming complex data into actionable insights that
-          enhance decision-making, optimize performance, and drive business growth within collaborative, innovative-focused teams.
+          Data Scientist with 4+ years of combined experience specialising in energy sector ML, time series
+          forecasting, and production pipeline engineering. Direct production experience at GEKO S.p.A. delivering
+          electricity consumption forecasting models and automated data pipelines for the Italian energy market.
+          Proficient in Python, XGBoost, Scikit-learn, Optuna, MLflow, Docker, and CI/CD — with working knowledge of
+          LSTM, Prophet, and anomaly detection for temporal energy data. Familiar with ARERA regulatory frameworks
+          and Italian energy market data standards.  Italian B1 and English C1 — a significant differentiator for roles at
+          Italian utilities and European energy firms.
+
         </p>
       </div>
     </div>
