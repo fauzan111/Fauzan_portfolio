@@ -1,73 +1,81 @@
 FAUZAN  EJAZ  
-+39 3421014345,  +91 9832887252  ⋄ Napoli,  ITALY  
-ejazfauzan14@gmail.com  ⋄ https://github.com/fauzan111  ⋄ https://fauzan -ejaz.runit.in  
++39 3421014345,  Milan ,  ITALY  
+ejazfauzan14@gmail.com  ⋄ https://github.com/fauzan111  ⋄ https://www.analyzewithfauzan.com/ 
 OBJECTIVE  
-Data -driven  professional  with  hands -on experience  in data  analysis,  statistical  modeling,  and machine  learning. 
-Transformed into a Data Scientist. Skilled in Python, SQL, and predictive analytics with a strong fou ndation in 
-automation and MLOps practices. Passionate about transforming complex data into actionable insights that 
-enhance decision -making, optimize performance, and drive business growth within collaborative, innovative - 
-focused teams.  
+Data Scientist with 4+ years of combined experience specialising in energy sector ML, time series
+forecasting, and production pipeline engineering. Direct production experience at GEKO S.p.A. delivering
+electricity consumption forecasting models and automated data pipelines for the Italian energy market.
+Proficient in Python, XGBoost, Scikit-learn, Optuna, MLflow, Docker, and CI/CD — with working knowledge of
+LSTM, Prophet, and anomaly detection for temporal energy data. Familiar with ARERA regulatory frameworks
+and Italian energy market data standards. Italian B1 and English C1 — a significant differentiator for roles at
+Italian utilities and European energy firms.
+  
  
 EDUCATION   
-Master’s  in Data  Science - University  of Napoli  Federico  II, ITALY  2023  - 2025  
+Master’s  in Data  Science - University of Napoli Federico  II, ITALY  2023  - 2026  
 Bachelor  of Computer  Application - Asansol  Engineering  College  (Grade -9 /10)  2018  - 2021  
-SKILLS   
-Technical Skills - Python · R · SQL · Scala · Apache Spark  · ETL Pipelines · Data Warehousing · AWS 
-(S3, EC2,  Lambda,  Redshift)  · Machine Learning  · Generative  AI · Big Data  Processing  · Data  Analysis 
-& Visualization (Pandas, NumPy, Matplotlib, Power BI) · Model Optimization · CI/CD · Git · Agile & 
-Scrum  
-Soft Skills  - Analytical  Thinking  · Problem  Solving  · Ownership  & Accountability  · Collaboration  & 
-Communication · Time Management · Adaptability · Self -Motivated and Goal -Oriented 
-LANGUAGE - Italian - B1, English - C1, Arabic  - A1, Hindi - C1, Urdu - C1, Bengali - B1 .  
+
+ML & Forecasting Scikit-learn · XGBoost · Optuna · LSTM / GRU · Prophet · ARIMA / SARIMA ·
+Anomaly Detection · Feature Engineering · SHAP (XAI) · Imbalanced Classification
+MLOps & Cloud MLflow · Docker · CI/CD (GitHub Actions) · Weights & Biases · FastAPI · ONNX ·
+AWS (CLF-C02 in progress) · Streamlit
+Data Engineering Python · SQL · Apache Spark · ETL Pipelines · Pandas · NumPy · Power BI · Time
+Series Processing
+Deep Learning PyTorch · Hugging Face Transformers · BERT · RoBERTa · YOLOv8 · LangGraph
+EU / Energy GDPR by Design · EU AI Act Compliance · ARERA Regulatory Fr
  
 EXPERIENCE  
 Data  Scientist  July 2025 - Present  
 GEKO  S.p.A  (Energy  & Ambient)  Naples,  ITALY  
- Developed  a production -ready  time series  forecasting  pipeline  using Python, Pandas, Scikit -learn, 
-and XGBoost , predicting hourly electricity consumption across Italian zones with  improved accuracy 
-through  Optuna  hyperparameter  tuning  and temporal  cross -validation . 
- Implemented  unsupervised  clustering  (K-Means,  DTW,  HAC)  on zone -wise  consumption  and weather 
-patterns  to identify  region -specific  behaviours,  enabling  cluster -based  model  training  that  improved 
-RMSE  and R² performance  by over  15%  compared  to baseline  models . 
- Engineered  advanced  features  including  lag variables,  rolling  statistics,  Fourier  seasonality  terms,  and 
-weather -based  indicators  (temperature,  humidity,  altitude ), and automated  model  training, 
-evaluation,  and saving  workflows  for each  cluster  — preparing  the pipeline  for production 
-deployment and monitoring . 
-Data  Analyst  Jan 2022  - Oct 2023  
+• Engineered a production-grade ETL pipeline processing [~X GWh / X million records] of Italian smart meter
+data daily, with multi-layer validation achieving 99% data integrity before model ingestion.
+• Developed and deployed electricity consumption forecasting models (XGBoost, Scikit-learn) with Optuna
+hyperparameter optimisation, achieving [~X% MAPE / X% improvement] on seasonal Italian energy demand
+patterns.
+• Built automated model evaluation and monitoring pipeline integrated into CI/CD (GitHub Actions + Docker),
+enabling real-time performance tracking and early drift detection across live forecasting outputs.
+• Designed and executed unit and integration tests for Python-based forecasting modules, identifying and
+resolving 20+ edge-case bugs pre-deployment — ensuring model reliability in a regulated energy environment.
+• Collaborated with domain stakeholders on ARERA-compliant data handling and energy market reporting,
+contributing to regulatory data governance workflows.
+
+Data  Analyst  Jan 2021  - Oct 2024  
 LTIMINDTREE  Kolkata,  INDIA  
-• Utilized  SQL for database  querying  and data  extraction,  Python  for data  wrangling  and analysis,  and 
-Excel for data manipulation and visualization.  
-• Developed  and maintained  automated  reporting  dashboards  using  Tableau  to track  key performance 
-indicators and metrics.  
-PROJECTS  
+• Authored complex SQL pipelines for data extraction and transformation, reducing manual reporting preparation
+time by ~30% through automation.
+• Built and maintained Power BI dashboards for KPI monitoring used daily by cross-functional teams, replacing
+manual spreadsheet workflows with live data connections.
+• Conducted exploratory data analysis on large structured datasets, identifying data quality issues and correcting
+upstream ETL logic.
  
-End-to-End Visual Quality Control System (MLOps) - Designed an end -to-end visual quality control system for manufacturing, 
-leveraging YOLOv8 and PyTorch to achieve a 78.9% mAP on the MVTec AD dataset. To ensure reproducibility, I engineered an 
-automated data pipeline that h andles versioning and converts segmentation masks to bounding boxes. The model was 
-optimized for edge deployment via ONNX export, significantly reducing inference latency for CPU environments, while a 
-Streamlit dashboard and MLflow were utilized for real -time visualization and rigorous experiment tracking.  
+Electricity Consumption Anomaly Detection (Energy Domain) XGBoost · LSTM · Prophet · MLflow ·
+Python · SHAP
+Time series anomaly detection system for Italian smart meter data, combining statistical baselines (ARIMA/Prophet)
+with gradient boosting (XGBoost) and LSTM deep learning for sequential pattern recognition. SHAP values used for
+model explainability — identifying which temporal features (hour-of-day, temperature, calendar effects) drove
+forecast deviations. MLflow for experiment tracking and model registry. Aligned with ARERA smart meter data
+standards. 
  
-GDPR -Guardian - In the Italian/European market, GDPR Compliance and Privacy by Design are mandatory. This service 
-automatically detects and redacts sensitive data like the Codice Fiscale  using custom Presidio recognizers and Spacy's 
-Italian model, ensuring data safety before it hits the database.  
-This project demonstrates: MLOps:  Full end -to-end containerization with Docker , Data Engineering: Building an API 
-gateway for data governance , Full-Stack Data Science: From custom logic to deployment.  
+GDPR-Guardian — EU Regulatory Compliance Service Microsoft Presidio · spaCy · FastAPI · Docker · EU
+AI Act · GDPR
+Production-ready PII detection and redaction API built for the Italian/European regulatory market. Custom Microsoft
+Presidio recognisers detect Codice Fiscale and Italian-specific sensitive entities using spaCy's Italian NLP model.
+FastAPI gateway with full Docker containerisation for scalable deployment. Directly aligned with GDPR by Design
+requirements and EU AI Act Article 10 data governance mandates. Demonstrates regulatory AI expertise relevant
+to Italian utility and public sector environments.
  
-    Sentiment  Analysis  on Amazon  Food  Reviews  using  BERT/RoBERTa - Preprocessed  360K+  Amazon  food  
-reviews using NLP techniques (tokenization, stop word removal, TF -IDF). Fine -tuned a transformer -base d 
-BERT/RoBERTa model to classify sentiment into positive, neutral, and negative categories. Achieved 88% F1 -score, 
-outperforming VADER and baseline models. Handled imbalanced classes, implemented multilingual detection, 
-and served  the model  using  MLFlow  with  live monitoring  via Weights  & Biases.  Deployed  Docker -ready  model  for 
-interactive inference and real -time feedback.  
+Sentiment Analysis — BERT/RoBERTa Fine-tuning Hugging Face Transformers · BERT · PyTorch · MLflow
+· Weights & Biases
+Fine-tuned BERT and RoBERTa on 360K+ text samples using Hugging Face Transformers and PyTorch. Achieved
+88% F1-score on 3-class sentiment classification, outperforming VADER and baseline models. Handled severe
+class imbalance and multilingual input. Full experiment tracking with MLflow and Weights & Biases. Docker-ready
+inference endpoint with real-time monitoring.
  
-Drug  Store  Price  Prediction - This project  focuses  on analyzing  sales  data  for Rossmann,  a major  German  drugstore 
-chain  with  a strong presence  across Europe.  Using  an open -source data  set provided by  Rossmann,  the objective 
-is to gain insights that can enhance the company’s decision -making and operational strategies.  
- 
-GESTURE DETECTION -VOLUME CONTROL - This project enables gesture -based c ontrol of computer volume using hand 
-tracking. By utilizing a hand -tracking module, it detects key landmarks to recognize gestures. Moving the hand closer or 
-farther adjusts the volume, creating a seamless, hands -free experience. The modular approach simpl ifies the development 
-process.  
+End-to-End Visual Quality Control System YOLOv8 · PyTorch · ONNX · MLflow · Streamlit
+Manufacturing visual inspection pipeline using YOLOv8 and PyTorch, achieving 78.9% mAP on MVTec AD dataset.
+ONNX export for CPU edge deployment with significantly reduced inference latency. Versioned data pipeline with
+automated mask-to-bounding-box conversion. Real-time monitoring via Streamlit and MLflow experiment tracking.
+Demonstrates full ML lifecycle ownership from data engineering to production deployment.
  
 Developed  an AI-powered  commerce  agent - AI-powered  commerce  agent  using  Lang  Graph  and OpenAI  API to 
 automate  product  recommendations,  order  lookups,  and policy -based  cancellations.  Implemented  strict  policy  enforcement , 
