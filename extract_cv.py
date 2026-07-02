@@ -16,7 +16,7 @@ def extract_text(pdf_path):
         return text
 
 if __name__ == "__main__":
-    cv_text = extract_text("Ejaz Fauzan CV.pdf")
+    cv_text = extract_text("Fauzan_Ejaz_CV_DS.pdf")
     with open("cv_extracted.txt", "w", encoding="utf-8") as f:
         f.write(cv_text)
     print("CV extracted successfully")
