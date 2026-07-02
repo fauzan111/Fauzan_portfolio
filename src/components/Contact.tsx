@@ -28,7 +28,7 @@ const Contact = () => {
               Github <MdArrowOutward />
             </a>
             <a
-              href="https://fauzan-ejaz.runit.in"
+              href="https://www.analyzewithfauzan.com/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -41,7 +41,7 @@ const Contact = () => {
               Designed and Developed <br /> by <span>Ejaz Fauzan</span>
             </h2>
             <h5>
-              <MdCopyright /> 2025
+              <MdCopyright /> 2026
             </h5>
           </div>
         </div>
