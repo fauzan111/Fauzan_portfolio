@@ -18,11 +18,15 @@ const Career = () => {
                 <h4>Data Analyst</h4>
                 <h5>LTIMINDTREE</h5>
               </div>
-              <h3>2022</h3>
+              <h3>2021</h3>
             </div>
             <p>
-              Utilized SQL, Python, and Excel for data wrangling and visualization.
-              Developed automated reporting dashboards using Tableau to track KPIs.
+            • Authored complex SQL pipelines for data extraction and transformation, reducing manual reporting preparation
+            time by ~30% through automation.
+            • Built and maintained Power BI dashboards for KPI monitoring used daily by cross-functional teams, replacing
+            manual spreadsheet workflows with live data connections.
+            • Conducted exploratory data analysis on large structured datasets, identifying data quality issues and correcting
+            upstream ETL logic.
             </p>
           </div>
           <div className="career-info-box">
@@ -47,8 +51,17 @@ const Career = () => {
               <h3>NOW</h3>
             </div>
             <p>
-              Developing production-ready time series forecasting pipelines using Python and XGBoost.
-              Implementing advanced clustering to improve performance by &gt;15%.
+              • Engineered a production-grade ETL pipeline processing [~X GWh / X million records] of Italian smart meter
+              data daily, with multi-layer validation achieving 99% data integrity before model ingestion.
+              • Developed and deployed electricity consumption forecasting models (XGBoost, Scikit-learn) with Optuna
+              hyperparameter optimisation, achieving [~X% MAPE / X% improvement] on seasonal Italian energy demand
+              patterns.
+              • Built automated model evaluation and monitoring pipeline integrated into CI/CD (GitHub Actions + Docker),
+              enabling real-time performance tracking and early drift detection across live forecasting outputs.
+              • Designed and executed unit and integration tests for Python-based forecasting modules, identifying and
+              resolving 20+ edge-case bugs pre-deployment — ensuring model reliability in a regulated energy environment.
+              • Collaborated with domain stakeholders on ARERA-compliant data handling and energy market reporting,
+               contributing to regulatory data governance workflows
             </p>
           </div>
         </div>
